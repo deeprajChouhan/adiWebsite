@@ -15,6 +15,52 @@ import {
   Typography
 } from "@mui/material";
 import { PieChart, BarChart, LineChart } from "@mui/x-charts";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import AssignmentTurnedInIcon from "@mui/icons-material/AssignmentTurnedIn";
+import AutoGraphIcon from "@mui/icons-material/AutoGraph";
+import BrandingWatermarkIcon from "@mui/icons-material/BrandingWatermark";
+import CampaignIcon from "@mui/icons-material/Campaign";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import CurrencyPoundIcon from "@mui/icons-material/CurrencyPound";
+import DescriptionIcon from "@mui/icons-material/Description";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import EmojiNatureIcon from "@mui/icons-material/EmojiNature";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
+import FactCheckIcon from "@mui/icons-material/FactCheck";
+import FamilyRestroomIcon from "@mui/icons-material/FamilyRestroom";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import ForestIcon from "@mui/icons-material/Forest";
+import ForumIcon from "@mui/icons-material/Forum";
+import GroupsIcon from "@mui/icons-material/Groups";
+import HearingIcon from "@mui/icons-material/Hearing";
+import LocalDiningIcon from "@mui/icons-material/LocalDining";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import LoyaltyIcon from "@mui/icons-material/Loyalty";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
+import ParkIcon from "@mui/icons-material/Park";
+import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
+import PersonSearchIcon from "@mui/icons-material/PersonSearch";
+import PhotoCameraIcon from "@mui/icons-material/PhotoCamera";
+import QrCode2Icon from "@mui/icons-material/QrCode2";
+import RateReviewIcon from "@mui/icons-material/RateReview";
+import RedeemIcon from "@mui/icons-material/Redeem";
+import RoomServiceIcon from "@mui/icons-material/RoomService";
+import SavingsIcon from "@mui/icons-material/Savings";
+import SchoolIcon from "@mui/icons-material/School";
+import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
+import SpaIcon from "@mui/icons-material/Spa";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
+import StorefrontIcon from "@mui/icons-material/Storefront";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+import TouchAppIcon from "@mui/icons-material/TouchApp";
+import TrendingUpIcon from "@mui/icons-material/TrendingUp";
+import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
+import VideocamIcon from "@mui/icons-material/Videocam";
+import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
+import WbSunnyIcon from "@mui/icons-material/WbSunny";
+import WorkIcon from "@mui/icons-material/Work";
 import appendices from "../data/appendices.json";
 import PageHeader from "../components/PageHeader.jsx";
 import SectionCard from "../components/SectionCard.jsx";
@@ -341,6 +387,386 @@ const BudgetCharts = ({ budget }) => (
   </Grid>
 );
 
+const IconCard = ({ icon: Icon, title, body }) => (
+  <Card variant="outlined" sx={{ height: "100%" }}>
+    <CardContent>
+      <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 1 }}>
+        <Box
+          sx={{
+            width: 36,
+            height: 36,
+            borderRadius: "50%",
+            backgroundColor: "rgba(46,95,77,0.12)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            color: "#2E5F4D"
+          }}
+        >
+          <Icon fontSize="small" />
+        </Box>
+        <Typography variant="subtitle1">{title}</Typography>
+      </Box>
+      <Typography variant="body2" color="text.secondary">
+        {body}
+      </Typography>
+    </CardContent>
+  </Card>
+);
+
+const MessagingPyramid = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      {
+        title: "Customer benefit",
+        body: "Lead with tangible value: healthier, fresher, affordable dining.",
+        icon: FavoriteBorderIcon
+      },
+      {
+        title: "Proof",
+        body: "Back claims with supplier lists, targets, and actions.",
+        icon: FactCheckIcon
+      },
+      {
+        title: "Values",
+        body: "Connect to community, transparency, and responsibility.",
+        icon: AutoGraphIcon
+      }
+    ].map((item, index) => (
+      <Grid item xs={12} key={item.title}>
+        <Card variant="outlined" sx={{ position: "relative", p: 2 }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+            <Box
+              sx={{
+                width: 44,
+                height: 44,
+                borderRadius: 2,
+                backgroundColor: "rgba(46,95,77,0.12)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#2E5F4D"
+              }}
+            >
+              <item.icon fontSize="small" />
+            </Box>
+            <Box>
+              <Typography variant="subtitle1">{item.title}</Typography>
+              <Typography variant="body2" color="text.secondary">
+                {item.body}
+              </Typography>
+            </Box>
+          </Box>
+          {index < 2 && (
+            <Box
+              sx={{
+                position: "absolute",
+                left: 32,
+                bottom: -12,
+                width: 2,
+                height: 24,
+                backgroundColor: "rgba(46,95,77,0.3)"
+              }}
+            />
+          )}
+        </Card>
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const StorytellingFramework = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Local suppliers", body: "Celebrate farms, makers, and provenance.", icon: StorefrontIcon },
+      { title: "Community involvement", body: "Show partnerships with schools and charities.", icon: GroupsIcon },
+      { title: "Seasonal food stories", body: "Highlight harvest-led menu moments.", icon: WbSunnyIcon },
+      { title: "Staff culture", body: "Spotlight teams and everyday hospitality.", icon: EmojiPeopleIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={6} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+    <Grid item xs={12}>
+      <FlowDiagram title="Standard story flow" steps={["Story", "Customer benefit", "Brand proof point"]} variant="steps" />
+    </Grid>
+  </Grid>
+);
+
+const DigitalGuidance = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Tone rules", body: "Warm, clear, and value-led language.", icon: CampaignIcon },
+      { title: "Templates", body: "Posts, emails, banners, and reusable layouts.", icon: MenuBookIcon },
+      { title: "Accessibility", body: "Contrast checks and alt-text compliance.", icon: AccessibilityNewIcon },
+      { title: "Photo guidance", body: "Real food, real people, natural light.", icon: PhotoCameraIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={6} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const SocialContentDashboard = () => (
+  <Grid container spacing={3} sx={{ mb: 3 }}>
+    <Grid item xs={12} md={6}>
+      <InfographicPanel title="Content pillars">
+        <Grid container spacing={2}>
+          {[
+            { title: "Value meals + bundles", icon: SavingsIcon },
+            { title: "Supplier storytelling", icon: LocalDiningIcon },
+            { title: "Seasonal menu drops", icon: SpaIcon },
+            { title: "Staff and culture", icon: PeopleAltIcon },
+            { title: "Sustainability proof", icon: EmojiNatureIcon }
+          ].map((item) => (
+            <Grid item xs={12} sm={6} key={item.title}>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                <item.icon fontSize="small" color="action" />
+                <Typography variant="body2">{item.title}</Typography>
+              </Box>
+            </Grid>
+          ))}
+        </Grid>
+      </InfographicPanel>
+    </Grid>
+    <Grid item xs={12} md={6}>
+      <InfographicPanel title="Weekly cadence">
+        <BarChart
+          xAxis={[{ scaleType: "band", data: ["Posts", "Stories", "Short-form"] }]}
+          series={[{ data: [4, 10, 1], color: "#2E5F4D" }]}
+          height={220}
+        />
+        <Typography variant="caption" color="text.secondary">
+          Target 8–12 stories per week, with a single hero video.
+        </Typography>
+      </InfographicPanel>
+    </Grid>
+    <Grid item xs={12}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={4}>
+          <KPIStatCard label="Engagement rate" value="+18%" progress={68} />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <KPIStatCard label="Booking clicks" value="+12%" progress={55} />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <KPIStatCard label="Review growth" value="+20%" progress={62} />
+        </Grid>
+      </Grid>
+    </Grid>
+  </Grid>
+);
+
+const LoyaltyConcept = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Rewards every visit", body: "Everyday ethical dining earns points fast.", icon: RedeemIcon },
+      { title: "Early offers", body: "Members see seasonal drops first.", icon: AccessTimeIcon },
+      { title: "Local specials", body: "Exclusive supplier collaborations.", icon: LocalOfferIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={4} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const DataInsights = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    <Grid item xs={12} md={6}>
+      <InfographicPanel title="Collected data">
+        <List dense>
+          {[
+            "Visit frequency",
+            "Spend level",
+            "Location preference",
+            "Dietary preferences",
+            "Satisfaction ratings"
+          ].map((item) => (
+            <ListItem key={item} disableGutters>
+              <ListItemText primary={item} />
+            </ListItem>
+          ))}
+        </List>
+      </InfographicPanel>
+    </Grid>
+    <Grid item xs={12} md={6}>
+      <InfographicPanel title="Use cases">
+        <Grid container spacing={2}>
+          {[
+            { title: "Tailored offers", icon: LoyaltyIcon },
+            { title: "Menu optimisation", icon: AutoGraphIcon },
+            { title: "Site benchmarking", icon: VerifiedUserIcon }
+          ].map((item) => (
+            <Grid item xs={12} key={item.title}>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                <item.icon fontSize="small" color="action" />
+                <Typography variant="body2">{item.title}</Typography>
+              </Box>
+            </Grid>
+          ))}
+        </Grid>
+      </InfographicPanel>
+    </Grid>
+  </Grid>
+);
+
+const SegmentOffers = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Families", body: "Weekend bundles and shareable plates.", icon: FamilyRestroomIcon },
+      { title: "Workers", body: "Fast-value lunch deals.", icon: WorkIcon },
+      { title: "Ethical diners", body: "Supplier menu drops and provenance perks.", icon: EmojiNatureIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={4} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const ExperientialInitiatives = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Supplier tasting nights", body: "Meet makers and sample hero dishes.", icon: LocalDiningIcon },
+      { title: "Local harvest weekends", body: "Seasonal menus and market-style activations.", icon: ParkIcon },
+      { title: "Community partnerships", body: "Schools, charities, and local fundraising.", icon: VolunteerActivismIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={4} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const SupplierTactics = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "QR supplier profiles", body: "Instant provenance stories at tables.", icon: QrCode2Icon },
+      { title: "Supplier video reels", body: "Short-form social features.", icon: VideocamIcon },
+      { title: "Supplier of the month", body: "Celebrate seasonal partners.", icon: EmojiEventsIcon },
+      { title: "Menu supplier cards", body: "Print highlights on menus.", icon: MenuBookIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={6} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const TrainingModules = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Brand promise", body: "How we show up every day.", icon: BrandingWatermarkIcon },
+      { title: "Service behaviours", body: "Hospitality and pace standards.", icon: RoomServiceIcon },
+      { title: "Sustainability knowledge", body: "Proof points and supplier facts.", icon: EmojiNatureIcon },
+      { title: "Complaint handling", body: "Resolve issues with empathy.", icon: SupportAgentIcon },
+      { title: "Ethical upselling", body: "Bundles + seasonal recs.", icon: AddShoppingCartIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={6} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const InternalCommsPlan = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Monthly brand toolkit", body: "Fresh templates and campaign packs.", icon: CalendarMonthIcon },
+      { title: "Manager briefings", body: "Site leads align on priorities.", icon: ForumIcon },
+      { title: "Staff updates", body: "Internal comms channel refreshes.", icon: CampaignIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={4} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const ImplementationPhases = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Phase 1", body: "Brand strategy + identity", icon: AutoGraphIcon },
+      { title: "Phase 2", body: "Menu + pricing messaging rollout", icon: MenuBookIcon },
+      { title: "Phase 3", body: "Loyalty + CRM launch", icon: LoyaltyIcon },
+      { title: "Phase 4", body: "Optimisation and campaigns", icon: TrendingUpIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={3} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const ImpactOutcomes = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Higher visit frequency", body: "Loyalty drives repeat dining.", icon: AutoGraphIcon },
+      { title: "Improved conversion", body: "Sharper messaging lifts bookings.", icon: TouchAppIcon },
+      { title: "Higher spend", body: "Bundles + seasonal upsell.", icon: SavingsIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={4} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+    <Grid item xs={12}>
+      <LineChart
+        xAxis={[{ scaleType: "point", data: ["Baseline", "Month 3", "Month 6", "Month 12"] }]}
+        series={[{ data: [40, 52, 64, 78], color: "#4B8B5E" }]}
+        height={220}
+      />
+    </Grid>
+  </Grid>
+);
+
+const ComplianceChecks = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Evidence for claims", body: "Proof points documented and approved.", icon: FactCheckIcon },
+      { title: "Supplier audits", body: "Up-to-date partner compliance.", icon: AssignmentTurnedInIcon },
+      { title: "Staff training", body: "Teams certified on sustainability.", icon: SchoolIcon },
+      { title: "Compliance documentation", body: "Records stored for audits.", icon: DescriptionIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={6} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const FeedbackTools = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "QR surveys", body: "Instant post-visit feedback.", icon: QrCode2Icon },
+      { title: "Google review prompts", body: "Drive public ratings.", icon: RateReviewIcon },
+      { title: "Social listening", body: "Track sentiment and trends.", icon: HearingIcon },
+      { title: "Mystery diners", body: "Real-world quality checks.", icon: PersonSearchIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={6} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
+const RebrandingSupports = () => (
+  <Grid container spacing={2} sx={{ mb: 3 }}>
+    {[
+      { title: "Market differentiation", body: "Stand out in ethical dining.", icon: StarBorderIcon },
+      { title: "Customer trust", body: "Proof-based, transparent messaging.", icon: VerifiedUserIcon },
+      { title: "Operational standardisation", body: "Consistent delivery across sites.", icon: SettingsSuggestIcon },
+      { title: "Financial recovery", body: "Stronger margins and repeat visits.", icon: CurrencyPoundIcon },
+      { title: "Sustainable growth", body: "Long-term impact with local partners.", icon: ForestIcon }
+    ].map((item) => (
+      <Grid item xs={12} md={4} key={item.title}>
+        <IconCard {...item} />
+      </Grid>
+    ))}
+  </Grid>
+);
+
 const AppendixPage = () => {
   const { id } = useParams();
   const appendixId = Number(id);
@@ -405,6 +831,22 @@ const AppendixPage = () => {
   const showGovernanceSteps = data.id === 15;
   const showRiskCards = data.id === 33;
   const showScenarioCards = data.id === 36;
+  const showMessagingPyramid = data.id === 13;
+  const showStorytellingFramework = data.id === 16;
+  const showDigitalGuidance = data.id === 17;
+  const showSocialContent = data.id === 18;
+  const showLoyaltyConcept = data.id === 21;
+  const showDataInsights = data.id === 23;
+  const showSegmentOffers = data.id === 24;
+  const showExperientialInitiatives = data.id === 25;
+  const showSupplierTactics = data.id === 26;
+  const showTrainingModules = data.id === 27;
+  const showInternalComms = data.id === 28;
+  const showImplementationPhases = data.id === 30;
+  const showImpactOutcomes = data.id === 35;
+  const showComplianceChecks = data.id === 37;
+  const showFeedbackTools = data.id === 38;
+  const showRebrandingSupports = data.id === 40;
 
   const tabs = showPersonalityTabs
     ? [
@@ -436,6 +878,22 @@ const AppendixPage = () => {
       <Grid container spacing={4}>
         <Grid item xs={12} md={8}>
           {showCanvas && <ValueCanvas canvas={data.canvas} />}
+          {showMessagingPyramid && <MessagingPyramid />}
+          {showStorytellingFramework && <StorytellingFramework />}
+          {showDigitalGuidance && <DigitalGuidance />}
+          {showSocialContent && <SocialContentDashboard />}
+          {showLoyaltyConcept && <LoyaltyConcept />}
+          {showDataInsights && <DataInsights />}
+          {showSegmentOffers && <SegmentOffers />}
+          {showExperientialInitiatives && <ExperientialInitiatives />}
+          {showSupplierTactics && <SupplierTactics />}
+          {showTrainingModules && <TrainingModules />}
+          {showInternalComms && <InternalCommsPlan />}
+          {showImplementationPhases && <ImplementationPhases />}
+          {showImpactOutcomes && <ImpactOutcomes />}
+          {showComplianceChecks && <ComplianceChecks />}
+          {showFeedbackTools && <FeedbackTools />}
+          {showRebrandingSupports && <RebrandingSupports />}
           {showBrandValues && (
             <Grid container spacing={2} sx={{ mb: 3 }}>
               {[
