@@ -1,0 +1,86 @@
+{
+  "sidebarGroups": [
+    {
+      "title": "Brand Strategy",
+      "items": [5, 6, 7, 8]
+    },
+    {
+      "title": "Identity",
+      "items": [9, 10, 11, 12, 13]
+    },
+    {
+      "title": "Digital",
+      "items": [14, 15, 16, 17, 18, 19, 20]
+    },
+    {
+      "title": "Loyalty",
+      "items": [21, 22, 23, 24, 25]
+    },
+    {
+      "title": "Implementation",
+      "items": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    }
+  ],
+  "sitemap": [
+    {
+      "slug": "strategy",
+      "title": "Strategy",
+      "subtitle": "Appendix 5–8",
+      "appendices": [5, 6, 7, 8]
+    },
+    {
+      "slug": "identity-system",
+      "title": "Identity System",
+      "subtitle": "Appendix 9–13",
+      "appendices": [9, 10, 11, 12, 13]
+    },
+    {
+      "slug": "pricing-menu-messaging",
+      "title": "Pricing + Menu + Messaging",
+      "subtitle": "Appendix 12–14",
+      "appendices": [12, 13, 14]
+    },
+    {
+      "slug": "governance-storytelling",
+      "title": "Marketing Governance + Local Storytelling",
+      "subtitle": "Appendix 15–16",
+      "appendices": [15, 16]
+    },
+    {
+      "slug": "digital-guidelines",
+      "title": "Digital Guidelines + Social + CRM",
+      "subtitle": "Appendix 17–20",
+      "appendices": [17, 18, 19, 20]
+    },
+    {
+      "slug": "loyalty-personalisation",
+      "title": "Loyalty + Personalisation + Insights",
+      "subtitle": "Appendix 21–25",
+      "appendices": [21, 22, 23, 24, 25]
+    },
+    {
+      "slug": "activation-experiences",
+      "title": "Activation: Experiences, Suppliers, Training",
+      "subtitle": "Appendix 26–29",
+      "appendices": [26, 27, 28, 29]
+    },
+    {
+      "slug": "delivery-change",
+      "title": "Delivery + Change + Roadmap + Budget",
+      "subtitle": "Appendix 30–32",
+      "appendices": [30, 31, 32]
+    },
+    {
+      "slug": "risk-kpi-forecast",
+      "title": "Risk + KPI + Forecast + Scenarios",
+      "subtitle": "Appendix 33–36",
+      "appendices": [33, 34, 35, 36]
+    },
+    {
+      "slug": "compliance-evaluation",
+      "title": "Compliance + Evaluation + Improvement + Alignment",
+      "subtitle": "Appendix 37–40",
+      "appendices": [37, 38, 39, 40]
+    }
+  ]
+}

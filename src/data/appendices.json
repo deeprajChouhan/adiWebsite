@@ -1,0 +1,1099 @@
+[
+  {
+    "id": 5,
+    "title": "Updated Value Proposition Canvas",
+    "goal": "Show the customer pains/gains + how Harvest & Co. delivers value.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["value proposition", "customer pains", "gains", "local sourcing"],
+    "related": ["Brand Strategy", "Positioning", "Customer Insight"],
+    "downloads": [
+      { "name": "Value Proposition Canvas (PDF)", "type": "PDF", "size": "2.4 MB" },
+      { "name": "Customer Insight Summary", "type": "DOCX", "size": "980 KB" }
+    ],
+    "sections": [
+      {
+        "id": "brand-foundation",
+        "title": "Brand purpose, vision, mission",
+        "body": [
+          "Brand Purpose (Revised): To make ethical, sustainable dining accessible to everyone by serving responsibly sourced food at fair, everyday prices—supporting local communities while reducing environmental impact.",
+          "Brand Vision (Revised): To become the West Midlands’ most trusted accessible ethical dining brand—where choosing sustainable, locally sourced food is easy, affordable, and part of everyday life.",
+          "Brand Mission (Revised): Harvest & Co.’s mission is to deliver high-quality casual dining that balances sustainability with affordability. We will source locally wherever possible, minimise waste, and operate responsibly—while maintaining consistent food quality, warm hospitality, and reliable value across all six locations."
+        ]
+      },
+      {
+        "id": "brand-values",
+        "title": "Brand values framework",
+        "body": [
+          "Accessible Ethics: Sustainability should be realistic and affordable, not exclusive or premium-priced. Customers experience clear value-for-money menus, ethical options at different price points, and transparent pricing.",
+          "Local First: Prioritising local producers and suppliers to strengthen community and reduce food miles. Customers experience menus that highlight local farms, seasonal specials, and West Midlands pride.",
+          "Honest Food: Customers deserve truthful, high-quality food with transparency about ingredients and sourcing. Customers experience simple, fresh, consistent recipes, ingredient transparency, and behind-the-scenes storytelling.",
+          "Care for People: Treating guests and staff with respect, fairness, and inclusion. Customers experience friendly service, trained staff, and inclusive dining.",
+          "Responsible Impact: Operating sustainably by reducing waste and environmental impact. Customers experience visible sustainable practices, reduced food waste, and ethical choices communicated clearly without greenwashing.",
+          "Consistency & Accountability: A multi-site restaurant must deliver the same standards everywhere. Customers experience reliable menus, consistent service speed and quality, and quick resolution of complaints."
+        ]
+      },
+      {
+        "id": "target-segmentation",
+        "title": "Target market segmentation",
+        "body": [
+          "Segmentation approach: demographic, geographic (West Midlands catchment areas near sites), psychographic (values, lifestyle attitudes), behavioural (dining frequency, spend sensitivity, sustainability interest).",
+          "Primary segments: Value-conscious ethical eaters (25–45, price-sensitive but quality-driven) and families seeking affordable quality (30–50, consistency and reliability across locations).",
+          "Secondary segments: Convenience-driven workers & lunch diners, occasion casual social diners, lifestyle & wellness diners."
+        ]
+      },
+      {
+        "id": "customer-profile",
+        "title": "Customer Profile",
+        "body": [
+          "Customer Jobs: Quick casual dining that feels healthy + honest; find affordable places for groups/families; make better choices without guilt or premium pricing.",
+          "Pains: Ethical food is usually expensive; confusing sustainability claims (greenwashing); inconsistent food/service across sites; limited quick/lunch-friendly options; lack of transparency about sourcing.",
+          "Gains: Affordable ethical meals; clear provenance (local suppliers); consistency across locations; seasonal variety and freshness; welcoming atmosphere with fast service."
+        ]
+      },
+      {
+        "id": "value-map",
+        "title": "Value Map",
+        "body": [
+          "Products & Services: Farm-to-table casual dining; seasonal menus + supplier partnerships; takeaway + lunch deals; loyalty scheme rewarding frequency.",
+          "Pain Relievers: Value bundles + clear pricing tiers; honest sourcing page on menu/website; consistency standards across 6 sites; staff training for speed + hospitality; transparent sustainability proof points.",
+          "Gain Creators: Meet-the-supplier storytelling; seasonal specials + local hero ingredient; family-friendly options; loyalty rewards tied to ethical choices."
+        ]
+      }
+    ],
+    "canvas": {
+      "customerProfile": {
+        "jobs": [
+          "Quick casual dining that feels “healthy + honest”",
+          "Find affordable places for groups/families",
+          "Make better choices without guilt or premium pricing"
+        ],
+        "pains": [
+          "Ethical food is usually expensive",
+          "Confusing sustainability claims (greenwashing)",
+          "Inconsistent food/service across sites",
+          "Limited quick/lunch-friendly options",
+          "Lack of transparency about sourcing"
+        ],
+        "gains": [
+          "Affordable ethical meals",
+          "Clear provenance (local suppliers)",
+          "Consistency across locations",
+          "Seasonal variety and freshness",
+          "Welcoming atmosphere with fast service"
+        ]
+      },
+      "valueMap": {
+        "products": [
+          "Farm-to-table casual dining",
+          "Seasonal menus + supplier partnerships",
+          "Takeaway + lunch deals",
+          "Loyalty scheme rewarding frequency"
+        ],
+        "painRelievers": [
+          "Value bundles + clear pricing tiers",
+          "Honest sourcing page on menu/website",
+          "Consistency standards across 6 sites",
+          "Staff training for speed + hospitality",
+          "Transparent sustainability proof points"
+        ],
+        "gainCreators": [
+          "Meet-the-supplier storytelling",
+          "Seasonal specials + “local hero ingredient”",
+          "Family-friendly options",
+          "Loyalty rewards tied to ethical choices"
+        ]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "title": "Brand Personality & Tone of Voice Guidelines",
+    "goal": "Align tone, personality, and copy rules across all touchpoints.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["tone of voice", "personality", "copy rules"],
+    "related": ["Identity", "Messaging", "Copywriting"],
+    "downloads": [
+      { "name": "Tone of Voice Cheatsheet", "type": "PDF", "size": "1.1 MB" },
+      { "name": "Copy Examples", "type": "DOCX", "size": "780 KB" }
+    ],
+    "sections": [
+      {
+        "id": "personality",
+        "title": "Personality spectrum",
+        "body": [
+          "Warm 5, Honest 5, Modern 4, Playful 3, Premium 2, Activist 2, Friendly 5.",
+          "Position Harvest & Co. as warm, honest, community-rooted, modern but not elitist, positive and never preachy."
+        ]
+      },
+      {
+        "id": "tone-pillars",
+        "title": "Tone pillars",
+        "body": [
+          "Welcoming, Transparent, Local & Proud, Simple + Value-led, Positive not preachy."
+        ]
+      },
+      {
+        "id": "copy-rules",
+        "title": "Do & Don’t guidelines",
+        "body": [
+          "DO: plain English, proof-based claims, value + community.",
+          "DON’T: elite vibes, shame customers, overclaim sustainability."
+        ]
+      },
+      {
+        "id": "examples",
+        "title": "Example copy",
+        "body": [
+          "Website banner: “Ethical food, everyday prices.”",
+          "Menu note: “Local ingredients. Seasonal menus. Zero fuss.”"
+        ]
+      }
+    ],
+    "personality": {
+      "Warm": 5,
+      "Honest": 5,
+      "Modern": 4,
+      "Playful": 3,
+      "Premium": 2,
+      "Activist": 2,
+      "Friendly": 5
+    },
+    "tonePillars": [
+      "Welcoming",
+      "Transparent",
+      "Local & Proud",
+      "Simple + Value-led",
+      "Positive not preachy"
+    ],
+    "copyRules": {
+      "do": [
+        "Plain English and short sentences",
+        "Proof-based claims",
+        "Value + community framing"
+      ],
+      "dont": [
+        "Elite vibes",
+        "Shame customers",
+        "Overclaim sustainability"
+      ]
+    },
+    "examples": [
+      "Ethical food, everyday prices.",
+      "Local ingredients. Seasonal menus. Zero fuss."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Rebranding Objectives & Success Criteria",
+    "goal": "Track success KPIs across short, medium, and long-term horizons.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["objectives", "KPIs", "success criteria"],
+    "related": ["Strategy", "KPIs", "Performance"],
+    "downloads": [
+      { "name": "KPI Tracker", "type": "XLSX", "size": "420 KB" }
+    ],
+    "sections": [
+      {
+        "id": "short-term",
+        "title": "Short-term (0–6 months)",
+        "body": [
+          "Improve brand clarity across all six sites | KPI +30% brand message recall (survey).",
+          "Strengthen marketing consistency | KPI 100% sites using central templates.",
+          "Increase footfall from value audience | KPI +10% weekly covers per site."
+        ]
+      },
+      {
+        "id": "medium-term",
+        "title": "Medium-term (6–12 months)",
+        "body": [
+          "Improve online engagement and conversion | KPI +40% website booking conversion, +25% Instagram engagement.",
+          "Boost loyalty-driven revenue | KPI 25% customers enrolled in loyalty."
+        ]
+      },
+      {
+        "id": "long-term",
+        "title": "Long-term (12–24 months)",
+        "body": [
+          "Restore sustainable profitability | KPI +8–12% EBITDA margin, improved cash flow.",
+          "Market leadership in accessible ethical dining | KPI top-3 brand awareness in region."
+        ]
+      }
+    ],
+    "objectives": {
+      "short": [
+        { "title": "Improve brand clarity across all six sites", "kpi": "+30% brand message recall" },
+        { "title": "Strengthen marketing consistency", "kpi": "100% sites using central templates" },
+        { "title": "Increase footfall from value audience", "kpi": "+10% weekly covers per site" }
+      ],
+      "medium": [
+        { "title": "Improve online engagement and conversion", "kpi": "+40% website booking conversion, +25% Instagram engagement" },
+        { "title": "Boost loyalty-driven revenue", "kpi": "25% customers enrolled in loyalty" }
+      ],
+      "long": [
+        { "title": "Restore sustainable profitability", "kpi": "+8–12% EBITDA margin" },
+        { "title": "Market leadership in accessible ethical dining", "kpi": "Top-3 brand awareness in region" }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Brand Positioning Map (Post-Rebrand)",
+    "goal": "Show the market gap Harvest & Co. owns on price accessibility vs ethical transparency.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["positioning", "map", "competition"],
+    "related": ["Brand Strategy", "Competitive"],
+    "downloads": [
+      { "name": "Positioning Map Source", "type": "FIG", "size": "1.6 MB" }
+    ],
+    "sections": [
+      {
+        "id": "map-axes",
+        "title": "Map axes",
+        "body": [
+          "X-axis: Price accessibility (Affordable → Expensive).",
+          "Y-axis: Ethical transparency (Low → High)."
+        ]
+      },
+      {
+        "id": "placements",
+        "title": "Competitive placements",
+        "body": [
+          "Harvest & Co.: High ethical transparency + high affordability.",
+          "Premium farm-to-table: High ethics, high price.",
+          "Budget chains: Low ethics, low price.",
+          "Mid casual dining: medium price, low ethics."
+        ]
+      }
+    ],
+    "positioning": {
+      "axes": {
+        "x": "Price Accessibility",
+        "y": "Ethical Transparency"
+      },
+      "markers": [
+        { "id": "harvest", "label": "Harvest & Co.", "x": 20, "y": 80, "color": "#2E5F4D" },
+        { "id": "premium", "label": "Premium farm-to-table", "x": 80, "y": 85, "color": "#A27C4B" },
+        { "id": "budget", "label": "Budget chains", "x": 15, "y": 20, "color": "#C16B4A" },
+        { "id": "mid", "label": "Mid casual dining", "x": 55, "y": 35, "color": "#6C7A89" }
+      ],
+      "whyWeWin": [
+        "Proof-based ethics",
+        "Local sourcing",
+        "Value bundles",
+        "Consistent multi-site experience"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "Visual Identity Concept Overview",
+    "goal": "Define the visual direction and design principles.",
+    "lastUpdated": "Feb 10, 2025",
+    "keywords": ["visual identity", "moodboard"],
+    "related": ["Identity", "Design"],
+    "downloads": [
+      { "name": "Moodboard", "type": "JPG", "size": "3.2 MB" }
+    ],
+    "sections": [
+      {
+        "id": "direction",
+        "title": "Direction",
+        "body": [
+          "Modern farmhouse meets high-street casual.",
+          "Natural, warm, clean."
+        ]
+      },
+      {
+        "id": "principles",
+        "title": "Principles",
+        "body": [
+          "Minimal clutter, visible ingredient photography, local storytelling visuals, warm neutrals + fresh greens."
+        ]
+      }
+    ],
+    "principles": [
+      "Minimal clutter",
+      "Visible ingredient photography",
+      "Local storytelling visuals",
+      "Warm neutrals + fresh greens"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Logo Usage Guidelines (Proposed)",
+    "goal": "Protect logo integrity across environments.",
+    "lastUpdated": "Feb 10, 2025",
+    "keywords": ["logo", "usage", "clear space"],
+    "related": ["Identity", "Brand Assets"],
+    "downloads": [
+      { "name": "Logo Pack", "type": "ZIP", "size": "18 MB" }
+    ],
+    "sections": [
+      {
+        "id": "rules",
+        "title": "Logo rules",
+        "body": [
+          "Clear space 1x logo height all sides.",
+          "Minimum size 24px digital / 20mm print.",
+          "Backgrounds: full logo on light, white logo on dark green."
+        ]
+      },
+      {
+        "id": "do-not",
+        "title": "Do not",
+        "body": [
+          "Do not stretch, add shadows, change colours, or place on noisy imagery."
+        ]
+      }
+    ],
+    "rules": [
+      "Clear space: minimum 1x logo height around all sides",
+      "Minimum size: 24px digital / 20mm print",
+      "Approved variations: full colour, mono dark, white reverse",
+      "Backgrounds: avoid busy imagery; use solid colours or soft overlays"
+    ],
+    "dont": [
+      "Stretch or distort",
+      "Add shadow/glow effects",
+      "Change colours",
+      "Rotate or crop"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Colour Palette & Typography System",
+    "goal": "Set the core colour and type system for the rebrand.",
+    "lastUpdated": "Feb 10, 2025",
+    "keywords": ["palette", "typography", "colors"],
+    "related": ["Identity", "Design System"],
+    "downloads": [
+      { "name": "Palette Tokens", "type": "JSON", "size": "12 KB" }
+    ],
+    "sections": [
+      {
+        "id": "palette",
+        "title": "Colour system",
+        "body": [
+          "Primary: Harvest Green, Warm Cream.",
+          "Secondary: Earth Brown, Charcoal.",
+          "Accent: Seasonal Yellow."
+        ]
+      },
+      {
+        "id": "typography",
+        "title": "Typography",
+        "body": [
+          "Headings modern sans, body friendly sans, optional serif for quotes.",
+          "Hierarchy: H1 headlines, H2 headers, Body menus/descriptions, Caption sourcing info."
+        ]
+      }
+    ],
+    "palette": [
+      { "name": "Harvest Green", "hex": "#2E5F4D" },
+      { "name": "Warm Cream", "hex": "#F6F1E7" },
+      { "name": "Earth Brown", "hex": "#8A6A3E" },
+      { "name": "Charcoal", "hex": "#2C2C2C" },
+      { "name": "Seasonal Yellow", "hex": "#D8A44D" }
+    ],
+    "typography": [
+      "Headings: modern sans-serif",
+      "Body: friendly sans-serif",
+      "Optional serif for quotes"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Menu Design Strategy",
+    "goal": "Deliver value-led menu architecture and storytelling.",
+    "lastUpdated": "Feb 05, 2025",
+    "keywords": ["menu", "structure", "copy"],
+    "related": ["Pricing", "Messaging"],
+    "downloads": [
+      { "name": "Menu Template", "type": "INDD", "size": "6.8 MB" }
+    ],
+    "sections": [
+      {
+        "id": "structure",
+        "title": "Menu structure",
+        "body": [
+          "Top section: Value bundles + “Everyday Ethical Choices”.",
+          "Middle: seasonal specials + local supplier highlight.",
+          "Bottom: children’s meals + dietary options."
+        ]
+      },
+      {
+        "id": "copy-style",
+        "title": "Menu copy style",
+        "body": [
+          "Short, clear descriptions with provenance lines beneath key dishes.",
+          "Icons for local / seasonal / vegan / low-waste."
+        ]
+      },
+      {
+        "id": "visual-strategy",
+        "title": "Visual strategy",
+        "body": [
+          "Ingredient-led photos, consistent spacing, and storytelling boxes (supplier feature)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Sustainability Messaging Framework",
+    "goal": "Keep sustainability claims clear, proof-based, and customer-led.",
+    "lastUpdated": "Feb 05, 2025",
+    "keywords": ["sustainability", "messaging"],
+    "related": ["Messaging", "Compliance"],
+    "downloads": [
+      { "name": "Messaging Pyramid", "type": "PDF", "size": "640 KB" }
+    ],
+    "sections": [
+      {
+        "id": "messaging-pyramid",
+        "title": "Messaging pyramid",
+        "body": [
+          "Customer benefit → Proof → Values.",
+          "Sustainability must always link to customer value."
+        ]
+      },
+      {
+        "id": "rules",
+        "title": "Rules",
+        "body": [
+          "Avoid vague terms (“eco-friendly”, “100% sustainable”).",
+          "Provide evidence (supplier list, targets, actions)."
+        ]
+      }
+    ],
+    "rules": [
+      "Customer benefit: healthier, fresher, affordable",
+      "Proof: local sourcing %, waste reduction, supplier names",
+      "Values: community, transparency, responsibility"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Pricing Communication Strategy",
+    "goal": "Clarify value and fairness across pricing communications.",
+    "lastUpdated": "Feb 05, 2025",
+    "keywords": ["pricing", "value"],
+    "related": ["Pricing", "Messaging"],
+    "downloads": [
+      { "name": "Pricing Message Toolkit", "type": "PDF", "size": "510 KB" }
+    ],
+    "sections": [
+      {
+        "id": "key-messaging",
+        "title": "Key messaging",
+        "body": [
+          "“Fair prices, fairly sourced.”",
+          "“Ethical dining made affordable.”"
+        ]
+      },
+      {
+        "id": "techniques",
+        "title": "Techniques",
+        "body": [
+          "Clear bundle savings (Save £X).",
+          "Price anchors (good/better/best).",
+          "Provenance justification: “Local supplier / seasonal ingredients”."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "Why are some dishes priced higher?", "a": "We price by ingredient quality and seasonal supply while keeping value bundles accessible." },
+      { "q": "How do bundles save money?", "a": "Bundles group popular items at a lower combined price to reward frequent visits." },
+      { "q": "Do prices change across sites?", "a": "Core menu pricing is consistent across all six sites; local specials follow the same value tiers." }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Centralised Marketing Governance Model",
+    "goal": "Define governance roles and approvals for marketing output.",
+    "lastUpdated": "Feb 02, 2025",
+    "keywords": ["governance", "marketing"],
+    "related": ["Governance", "Marketing"],
+    "downloads": [
+      { "name": "Governance Checklist", "type": "PDF", "size": "430 KB" }
+    ],
+    "sections": [
+      {
+        "id": "structure",
+        "title": "Structure",
+        "body": [
+          "Central marketing team controls brand guidelines, templates, calendar, performance tracking.",
+          "Local site role: limited local adaptation using approved content slots; submit requests for promotions/events."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Local Storytelling Alignment Framework",
+    "goal": "Align local stories to brand pillars with a consistent format.",
+    "lastUpdated": "Feb 02, 2025",
+    "keywords": ["storytelling", "local"],
+    "related": ["Marketing", "Storytelling"],
+    "downloads": [
+      { "name": "Storytelling Template", "type": "DOCX", "size": "210 KB" }
+    ],
+    "sections": [
+      {
+        "id": "framework",
+        "title": "Framework",
+        "body": [
+          "Local stories must align to one of the brand pillars: Local suppliers, Community involvement, Seasonal food stories, Staff culture.",
+          "Standard format: Story → Customer benefit → Brand proof point."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Digital Brand Guidelines",
+    "goal": "Ensure digital assets follow tone, accessibility, and photo guidance.",
+    "lastUpdated": "Feb 01, 2025",
+    "keywords": ["digital", "accessibility", "templates"],
+    "related": ["Digital", "Accessibility"],
+    "downloads": [
+      { "name": "Digital Templates", "type": "ZIP", "size": "9.8 MB" }
+    ],
+    "sections": [
+      {
+        "id": "includes",
+        "title": "Included guidance",
+        "body": [
+          "Tone rules, templates (posts, emails, banners), accessibility compliance (contrast, alt text), photo guidance (real food, real people)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Social Media Content Strategy",
+    "goal": "Set content pillars and cadence for social channels.",
+    "lastUpdated": "Feb 01, 2025",
+    "keywords": ["social", "content"],
+    "related": ["Digital", "Marketing"],
+    "downloads": [
+      { "name": "Social Calendar", "type": "XLSX", "size": "540 KB" }
+    ],
+    "sections": [
+      {
+        "id": "pillars",
+        "title": "Content pillars",
+        "body": [
+          "1. Value meals + bundles",
+          "2. Supplier storytelling",
+          "3. Seasonal menu drops",
+          "4. Staff and culture",
+          "5. Sustainability proof"
+        ]
+      },
+      {
+        "id": "posting-plan",
+        "title": "Posting plan",
+        "body": [
+          "4 posts/week, 8–12 stories/week, 1 short-form video/week."
+        ]
+      },
+      {
+        "id": "goals",
+        "title": "Goals",
+        "body": [
+          "Increase engagement rate, increase booking clicks, grow reviews."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Website Structure and UX Improvements",
+    "goal": "Align the web experience with performance and transparency goals.",
+    "lastUpdated": "Feb 01, 2025",
+    "keywords": ["website", "ux"],
+    "related": ["Digital", "Experience"],
+    "downloads": [
+      { "name": "Sitemap Diagram", "type": "PDF", "size": "820 KB" }
+    ],
+    "sections": [
+      {
+        "id": "sitemap",
+        "title": "Proposed sitemap",
+        "body": [
+          "Home | Menu | Locations | Book/Order | Offers | Loyalty | Our Story | Suppliers | Contact"
+        ]
+      },
+      {
+        "id": "ux-improvements",
+        "title": "UX improvements",
+        "body": [
+          "Fast menu filters, one-click booking/order CTA, location detection, mobile-first usability, transparent sourcing section."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Email Marketing and CRM Strategy",
+    "goal": "Support lifecycle engagement with consistent messaging.",
+    "lastUpdated": "Feb 01, 2025",
+    "keywords": ["email", "crm"],
+    "related": ["Digital", "CRM"],
+    "downloads": [
+      { "name": "Lifecycle Email Flows", "type": "PDF", "size": "740 KB" }
+    ],
+    "sections": [
+      {
+        "id": "lifecycle",
+        "title": "Lifecycle emails",
+        "body": [
+          "Welcome sequence, seasonal menu launch, bundle offers, re-engagement, birthday/anniversary rewards."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Digital Loyalty Programme Concept",
+    "goal": "Define the loyalty positioning and benefit stack.",
+    "lastUpdated": "Jan 29, 2025",
+    "keywords": ["loyalty", "rewards"],
+    "related": ["Loyalty", "CRM"],
+    "downloads": [
+      { "name": "Loyalty One-Pager", "type": "PDF", "size": "510 KB" }
+    ],
+    "sections": [
+      {
+        "id": "concept",
+        "title": "Concept",
+        "body": [
+          "Rewards for everyday ethical dining.",
+          "Benefits: free items, early offers, local/supplier specials."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Loyalty Programme User Journey",
+    "goal": "Clarify the customer journey stages for loyalty adoption.",
+    "lastUpdated": "Jan 29, 2025",
+    "keywords": ["loyalty", "journey"],
+    "related": ["Loyalty", "Customer Experience"],
+    "downloads": [
+      { "name": "Journey Map", "type": "PDF", "size": "680 KB" }
+    ],
+    "sections": [
+      {
+        "id": "steps",
+        "title": "Journey steps",
+        "body": [
+          "Discover → Sign-up → Earn → Track points → Redeem → Refer friends."
+        ]
+      },
+      {
+        "id": "reward-structure",
+        "title": "Reward structure",
+        "body": [
+          "£1 = 10 points, seasonal/local item bonus points, review referral bonus points.",
+          "Threshold ladder: 500 = drink, 1200 = starter, 2500 = voucher."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Data Collection and Customer Insights Strategy",
+    "goal": "Define what data to collect and how to use it responsibly.",
+    "lastUpdated": "Jan 29, 2025",
+    "keywords": ["data", "insights"],
+    "related": ["Insights", "Loyalty"],
+    "downloads": [
+      { "name": "Data Fields", "type": "CSV", "size": "60 KB" }
+    ],
+    "sections": [
+      {
+        "id": "collected-data",
+        "title": "Collected data",
+        "body": [
+          "Visit frequency, spend level, location preference, dietary preferences, satisfaction ratings."
+        ]
+      },
+      {
+        "id": "use-cases",
+        "title": "Use cases",
+        "body": [
+          "Tailored offers, menu optimisation, site performance benchmarking."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Customer Personalisation Framework",
+    "goal": "Guide segment-based offers and messaging.",
+    "lastUpdated": "Jan 29, 2025",
+    "keywords": ["personalisation", "segments"],
+    "related": ["Loyalty", "CRM"],
+    "downloads": [
+      { "name": "Personalisation Rules", "type": "PDF", "size": "330 KB" }
+    ],
+    "sections": [
+      {
+        "id": "segment-offers",
+        "title": "Segment-based offers",
+        "body": [
+          "Families → weekend bundles.",
+          "Workers → lunch deals.",
+          "Ethical diners → supplier menu drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Experiential Marketing Initiatives",
+    "goal": "Outline local experiences that bring the rebrand to life.",
+    "lastUpdated": "Jan 29, 2025",
+    "keywords": ["experiential", "events"],
+    "related": ["Activation", "Marketing"],
+    "downloads": [
+      { "name": "Event Playbook", "type": "PDF", "size": "910 KB" }
+    ],
+    "sections": [
+      {
+        "id": "initiatives",
+        "title": "Initiatives",
+        "body": [
+          "Supplier tasting nights, seasonal “local harvest” weekends, community partnerships (schools/charities)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Supplier Collaboration and Storytelling Plan",
+    "goal": "Ensure suppliers are visible across channels and menus.",
+    "lastUpdated": "Jan 24, 2025",
+    "keywords": ["suppliers", "storytelling"],
+    "related": ["Activation", "Supply"],
+    "downloads": [
+      { "name": "Supplier Toolkit", "type": "ZIP", "size": "1.2 MB" }
+    ],
+    "sections": [
+      {
+        "id": "tactics",
+        "title": "Tactics",
+        "body": [
+          "QR supplier profiles, supplier video reels, local supplier of the month, supplier cards on menus."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Staff Brand Training Programme",
+    "goal": "Equip staff to deliver the brand promise consistently.",
+    "lastUpdated": "Jan 24, 2025",
+    "keywords": ["training", "staff"],
+    "related": ["Training", "Operations"],
+    "downloads": [
+      { "name": "Training Modules", "type": "PDF", "size": "1.3 MB" }
+    ],
+    "sections": [
+      {
+        "id": "modules",
+        "title": "Modules",
+        "body": [
+          "Brand promise, service behaviours, sustainability knowledge, complaint handling, upselling ethically (bundles/seasonals)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Internal Brand Communication Plan",
+    "goal": "Keep teams aligned with monthly updates and toolkits.",
+    "lastUpdated": "Jan 24, 2025",
+    "keywords": ["internal comms", "alignment"],
+    "related": ["Change", "Operations"],
+    "downloads": [
+      { "name": "Comms Calendar", "type": "PDF", "size": "380 KB" }
+    ],
+    "sections": [
+      {
+        "id": "plan",
+        "title": "Plan",
+        "body": [
+          "Monthly brand toolkit release, site manager briefings, staff updates via internal comms channel."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Change Management Plan for Rebranding",
+    "goal": "Provide a phased plan to reduce risk and build adoption.",
+    "lastUpdated": "Jan 24, 2025",
+    "keywords": ["change management", "rollout"],
+    "related": ["Change", "Leadership"],
+    "downloads": [
+      { "name": "Change Plan", "type": "PDF", "size": "760 KB" }
+    ],
+    "sections": [
+      {
+        "id": "steps",
+        "title": "Steps",
+        "body": [
+          "Communicate “why change”, train leaders first, pilot in 1–2 sites, scale with feedback loop, monitor performance continuously."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Implementation Roadmap",
+    "goal": "Stage the rollout for strategy, identity, and activation.",
+    "lastUpdated": "Jan 20, 2025",
+    "keywords": ["roadmap", "implementation"],
+    "related": ["Delivery", "Change"],
+    "downloads": [
+      { "name": "Roadmap Slides", "type": "PPTX", "size": "2.2 MB" }
+    ],
+    "sections": [
+      {
+        "id": "phases",
+        "title": "Phases",
+        "body": [
+          "Phase 1: brand strategy + identity.",
+          "Phase 2: menu + pricing messaging rollout.",
+          "Phase 3: loyalty + CRM launch.",
+          "Phase 4: optimisation and campaigns."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Delivery Roadmap Timeline",
+    "goal": "Visualise the timeline across the next 12–24 months.",
+    "lastUpdated": "Jan 20, 2025",
+    "keywords": ["timeline", "roadmap"],
+    "related": ["Delivery", "Change"],
+    "downloads": [
+      { "name": "Timeline Source", "type": "FIG", "size": "1.1 MB" }
+    ],
+    "sections": [
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "body": [
+          "H1: Strategy alignment + identity design.",
+          "H2: Menu + pricing comms rollout.",
+          "H3: Loyalty + CRM launch.",
+          "H4: Optimisation and campaigns."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Budget Allocation",
+    "goal": "Track budget distribution and guardrails for the rebrand.",
+    "lastUpdated": "Jan 20, 2025",
+    "keywords": ["budget", "allocation"],
+    "related": ["Delivery", "Finance"],
+    "downloads": [
+      { "name": "Budget Tracker", "type": "XLSX", "size": "520 KB" }
+    ],
+    "sections": [
+      {
+        "id": "categories",
+        "title": "Categories",
+        "body": [
+          "Identity design + signage, website improvements, photography/content, training, CRM/loyalty tools."
+        ]
+      }
+    ],
+    "budget": [
+      { "label": "Identity + signage", "value": 30 },
+      { "label": "Website improvements", "value": 20 },
+      { "label": "Photography/content", "value": 18 },
+      { "label": "Training", "value": 16 },
+      { "label": "CRM/loyalty tools", "value": 16 }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Risk Analysis",
+    "goal": "Assess rebrand risks and mitigation tactics.",
+    "lastUpdated": "Jan 18, 2025",
+    "keywords": ["risk", "mitigation"],
+    "related": ["Risk", "Governance"],
+    "downloads": [
+      { "name": "Risk Register", "type": "XLSX", "size": "360 KB" }
+    ],
+    "sections": [
+      {
+        "id": "risks",
+        "title": "Risks and mitigation",
+        "body": [
+          "Greenwashing perceptions → proof points.",
+          "Inconsistent execution → central governance.",
+          "Staff resistance → training + involvement.",
+          "Cost pressure → phased rollout."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "KPIs for Rebranding",
+    "goal": "Define KPIs across brand, digital, customer, financial, and operations.",
+    "lastUpdated": "Jan 18, 2025",
+    "keywords": ["kpi", "dashboard"],
+    "related": ["Performance", "Analytics"],
+    "downloads": [
+      { "name": "KPI Dashboard", "type": "XLSX", "size": "440 KB" }
+    ],
+    "sections": [
+      {
+        "id": "kpi-categories",
+        "title": "KPI categories",
+        "body": [
+          "Brand: awareness + sentiment.",
+          "Digital: traffic + conversion.",
+          "Customer: NPS + reviews.",
+          "Financial: covers + spend + margin.",
+          "Operations: service time + consistency."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Financial Impact Forecast",
+    "goal": "Summarise expected outcomes from the rebrand initiatives.",
+    "lastUpdated": "Jan 18, 2025",
+    "keywords": ["forecast", "financial"],
+    "related": ["Finance", "Strategy"],
+    "downloads": [
+      { "name": "Forecast Model", "type": "XLSX", "size": "610 KB" }
+    ],
+    "sections": [
+      {
+        "id": "outcomes",
+        "title": "Expected outcomes",
+        "body": [
+          "Higher visit frequency via loyalty.",
+          "Improved conversion.",
+          "Higher spend through bundles + seasonal upsell."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Competitor Response Scenarios",
+    "goal": "Plan responses to likely market reactions.",
+    "lastUpdated": "Jan 18, 2025",
+    "keywords": ["competitors", "scenarios"],
+    "related": ["Strategy", "Risk"],
+    "downloads": [
+      { "name": "Scenario Playbook", "type": "PDF", "size": "490 KB" }
+    ],
+    "sections": [
+      {
+        "id": "scenarios",
+        "title": "Scenarios",
+        "body": [
+          "Scenario 1: competitor discounts → strengthen value bundles.",
+          "Scenario 2: competitor ethical claims → proof-based comms.",
+          "Scenario 3: menu imitation → seasonal innovation."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Ethical & Sustainability Compliance Review",
+    "goal": "Ensure compliance checks are in place before rollout.",
+    "lastUpdated": "Jan 15, 2025",
+    "keywords": ["compliance", "sustainability"],
+    "related": ["Compliance", "Governance"],
+    "downloads": [
+      { "name": "Compliance Checklist", "type": "PDF", "size": "300 KB" }
+    ],
+    "sections": [
+      {
+        "id": "checks",
+        "title": "Checks",
+        "body": [
+          "Evidence for claims, supplier audits, staff training, compliance documentation."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Customer Feedback & Evaluation Methods",
+    "goal": "Define continuous feedback loops for post-launch evaluation.",
+    "lastUpdated": "Jan 15, 2025",
+    "keywords": ["feedback", "evaluation"],
+    "related": ["Insights", "Improvement"],
+    "downloads": [
+      { "name": "Feedback Toolkit", "type": "PDF", "size": "280 KB" }
+    ],
+    "sections": [
+      {
+        "id": "tools",
+        "title": "Tools",
+        "body": [
+          "QR surveys, Google review prompts, social listening, mystery diners."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Continuous Brand Improvement Framework",
+    "goal": "Create a cycle for listening, improving, and training teams.",
+    "lastUpdated": "Jan 15, 2025",
+    "keywords": ["improvement", "framework"],
+    "related": ["Improvement", "Operations"],
+    "downloads": [
+      { "name": "Improvement Cycle", "type": "PDF", "size": "260 KB" }
+    ],
+    "sections": [
+      {
+        "id": "cycle",
+        "title": "Cycle",
+        "body": [
+          "Listen → Analyse → Improve → Train → Monitor."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Strategic Alignment Summary",
+    "goal": "Summarise how the rebrand supports long-term goals.",
+    "lastUpdated": "Jan 15, 2025",
+    "keywords": ["alignment", "strategy"],
+    "related": ["Strategy", "Governance"],
+    "downloads": [
+      { "name": "Alignment Summary", "type": "PDF", "size": "340 KB" }
+    ],
+    "sections": [
+      {
+        "id": "summary",
+        "title": "Rebranding supports",
+        "body": [
+          "Market differentiation, improved customer trust, operational standardisation, financial recovery, long-term sustainable growth."
+        ]
+      }
+    ]
+  }
+]
