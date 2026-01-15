@@ -1,5 +1,159 @@
 [
   {
+    "id": 1,
+    "title": "Brand Positioning Statement",
+    "goal": "Clarify the accessible ethical dining position for Harvest & Co.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["positioning", "ethical dining", "value"],
+    "related": ["Brand Strategy", "Positioning", "Messaging"],
+    "downloads": [
+      { "name": "Positioning Statement (PDF)", "type": "PDF", "size": "320 KB" }
+    ],
+    "sections": [
+      {
+        "id": "positioning-statement",
+        "title": "Brand positioning statement",
+        "body": [
+          "Harvest & Co. is an accessible ethical casual dining group that makes sustainable, locally sourced food an everyday choice—not a luxury.",
+          "We deliver honest food, clear provenance, and consistent hospitality across multiple West Midlands sites, balancing responsible sourcing with value-driven pricing and convenience."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Brand Purpose, Vision & Mission",
+    "goal": "Define the purpose, vision, and mission guiding the rebrand.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["purpose", "vision", "mission"],
+    "related": ["Brand Strategy", "Purpose", "Vision"],
+    "downloads": [
+      { "name": "Purpose, Vision & Mission (PDF)", "type": "PDF", "size": "410 KB" }
+    ],
+    "sections": [
+      {
+        "id": "brand-purpose",
+        "title": "Brand purpose (revised)",
+        "body": [
+          "To make ethical, sustainable dining accessible to everyone by serving responsibly sourced food at fair, everyday prices—supporting local communities while reducing environmental impact."
+        ]
+      },
+      {
+        "id": "brand-vision",
+        "title": "Brand vision (revised)",
+        "body": [
+          "To become the West Midlands’ most trusted accessible ethical dining brand—where choosing sustainable, locally sourced food is easy, affordable, and part of everyday life."
+        ]
+      },
+      {
+        "id": "brand-mission",
+        "title": "Brand mission (revised)",
+        "body": [
+          "Harvest & Co.’s mission is to deliver high-quality casual dining that balances sustainability with affordability.",
+          "We will source locally wherever possible, minimise waste, and operate responsibly—while maintaining consistent food quality, warm hospitality, and reliable value across all six locations."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Brand Values Framework",
+    "goal": "Translate the core values into clear customer experiences.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["brand values", "customer experience", "ethics"],
+    "related": ["Values", "Culture", "Experience"],
+    "downloads": [
+      { "name": "Brand Values Framework (PDF)", "type": "PDF", "size": "520 KB" }
+    ],
+    "sections": [
+      {
+        "id": "accessible-ethics",
+        "title": "Accessible Ethics",
+        "body": [
+          "Sustainability should be realistic and affordable, not exclusive or premium-priced.",
+          "Customers experience clear value-for-money menus and meal bundles, ethical options at different price points, and transparent pricing that explains what they are paying for."
+        ]
+      },
+      {
+        "id": "local-first",
+        "title": "Local First",
+        "body": [
+          "Prioritising local producers and suppliers to strengthen community and reduce food miles.",
+          "Customers experience menus that highlight local farms and suppliers, seasonal specials based on local availability, and West Midlands pride reflected in menu choices."
+        ]
+      },
+      {
+        "id": "honest-food",
+        "title": "Honest Food",
+        "body": [
+          "Customers deserve truthful, high-quality food with transparency about ingredients and sourcing.",
+          "Customers experience simple, fresh, consistent recipes across all six sites, ingredient transparency, and behind-the-scenes storytelling on menus or socials."
+        ]
+      },
+      {
+        "id": "care-for-people",
+        "title": "Care for People",
+        "body": [
+          "Treating guests and staff with respect, fairness, and inclusion.",
+          "Customers experience friendly service, confident and trained staff across locations, and inclusive dining options for families and dietary needs."
+        ]
+      },
+      {
+        "id": "responsible-impact",
+        "title": "Responsible Impact",
+        "body": [
+          "Operating sustainably by reducing waste and environmental impact across the business.",
+          "Customers experience visible sustainable practices, reduced food waste through menu design, and ethical choices communicated clearly without greenwashing."
+        ]
+      },
+      {
+        "id": "consistency-accountability",
+        "title": "Consistency & Accountability",
+        "body": [
+          "A multi-site restaurant must deliver the same standards everywhere—food quality, service, pricing, and hygiene.",
+          "Customers experience reliable menus across all sites, consistent service speed and quality, and quick resolution of complaints through clear customer care channels."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Target Market Segmentation",
+    "goal": "Detail the post-rebrand target segments and growth priorities.",
+    "lastUpdated": "Feb 18, 2025",
+    "keywords": ["segmentation", "target market", "audiences"],
+    "related": ["Customer Insight", "Segmentation", "Growth"],
+    "downloads": [
+      { "name": "Target Segmentation Summary (PDF)", "type": "PDF", "size": "610 KB" }
+    ],
+    "sections": [
+      {
+        "id": "segmentation-approach",
+        "title": "Segmentation approach",
+        "body": [
+          "Harvest & Co.’s target market is segmented using demographic (age, income, household type), geographic (West Midlands catchment areas near sites), psychographic (values, lifestyle attitudes), and behavioural (dining frequency, spend sensitivity, sustainability interest) lenses."
+        ]
+      },
+      {
+        "id": "primary-segments",
+        "title": "Primary target segments (core growth focus)",
+        "body": [
+          "Value-conscious ethical eaters (25–45): low to middle income, price-sensitive but quality-driven. Motivated by ethical, local food without premium prices; prefer transparent brands; seek convenient casual dining and share online when values align.",
+          "Families seeking affordable quality (30–50): middle-income families prioritising cost control. Motivated by affordable meals, healthy choices for children, flexible portions, and consistent experiences across locations."
+        ]
+      },
+      {
+        "id": "secondary-segments",
+        "title": "Secondary target segments (supportive expansion)",
+        "body": [
+          "Convenience-driven workers & lunch diners (18–40): fast service, affordable lunch pricing, takeaway, and click-and-collect; high weekday frequency with lower spend per visit.",
+          "Occasion casual social diners (20–55): comfortable vibe, shareable menus, seasonal specials, mid-range pricing, and ethical identity as a feel-good factor.",
+          "Lifestyle & wellness diners (20–45): fresh, nutritious meals with vegetarian/vegan options, transparent ingredients, and dietary accommodation; smaller segment but strong advocates."
+        ]
+      }
+    ]
+  },
+  {
     "id": 5,
     "title": "Updated Value Proposition Canvas",
     "goal": "Show the customer pains/gains + how Harvest & Co. delivers value.",
