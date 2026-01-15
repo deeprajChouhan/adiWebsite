@@ -27,6 +27,7 @@ import TagChips from "../components/TagChips.jsx";
 import CopyBlock from "../components/CopyBlock.jsx";
 import SectionHeading from "../components/SectionHeading.jsx";
 import { useLayout } from "../components/LayoutProvider.jsx";
+import FlowDiagram from "../components/FlowDiagram.jsx";
 
 const useAppendixData = (id) => {
   const [loading, setLoading] = useState(true);
@@ -41,6 +42,26 @@ const useAppendixData = (id) => {
   }, [id]);
 
   return { data, loading };
+};
+
+const splitSteps = (text) => {
+  const normalized = text.replace(/\.$/, "");
+  if (normalized.includes("→")) {
+    return normalized.split("→").map((step) => step.trim()).filter(Boolean);
+  }
+  return normalized.split(",").map((step) => step.trim()).filter(Boolean);
+};
+
+const getFlowData = (section) => {
+  const label = `${section.title} ${section.id}`.toLowerCase();
+  if (!/step|cycle/.test(label)) return null;
+  const bodyText = Array.isArray(section.body) ? section.body.join(" ") : section.body;
+  const steps = splitSteps(bodyText);
+  if (steps.length < 2) return null;
+  return {
+    variant: label.includes("cycle") ? "cycle" : "steps",
+    steps
+  };
 };
 
 const ValueCanvas = ({ canvas }) => (
@@ -584,15 +605,25 @@ const AppendixPage = () => {
             </Grid>
           )}
 
-          {data.sections.map((section) => (
-            <Box key={section.id} sx={{ mt: 4 }}>
-              <SectionHeading id={section.id} title={section.title} />
-              <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-                {Array.isArray(section.body) ? section.body.join(" ") : section.body}
-              </Typography>
-              {section.tags && <TagChips tags={section.tags} />}
-            </Box>
-          ))}
+          {data.sections.map((section) => {
+            const flowData = getFlowData(section);
+            return (
+              <Box key={section.id} sx={{ mt: 4 }}>
+                <SectionHeading id={section.id} title={section.title} />
+                {flowData && (
+                  <FlowDiagram
+                    title={flowData.variant === "cycle" ? "Continuous improvement cycle" : "Step-by-step journey"}
+                    steps={flowData.steps}
+                    variant={flowData.variant}
+                  />
+                )}
+                <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
+                  {Array.isArray(section.body) ? section.body.join(" ") : section.body}
+                </Typography>
+                {section.tags && <TagChips tags={section.tags} />}
+              </Box>
+            );
+          })}
 
           {accordionItems.length > 0 && (
             <Box sx={{ mt: 4 }}>
